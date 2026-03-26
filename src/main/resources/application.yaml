@@ -3,7 +3,7 @@ spring:
     name: program-service
 
   config:
-    import: "optional:configserver:"
+    import: "configserver:"
 
   cloud:
     config:
