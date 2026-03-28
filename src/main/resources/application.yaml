@@ -1,10 +1,11 @@
 spring:
   application:
     name: program-service
-
   config:
     import: "configserver:"
-
   cloud:
     config:
       uri: http://config.platform:9000
+  mongodb:
+    uri: "mongodb://root:OcHNRZnK4uR5SGjBtz1fIXh3Uy8zs_7jnh_iGM3BAEIyLJHo@93b021f3-a400-4014-8174-5713c15bd3f4.asia-southeast1.firestore.goog:443/db-capstone?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false"
+    auto-index-creation: true
